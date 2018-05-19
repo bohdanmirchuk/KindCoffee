@@ -1,0 +1,140 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+ */
+ .App {
+  background: #F6F7FC;
+  font-family: Montserrat, sans-serif;
+ }
+.nav-menu.col-6{
+  background: #ffffff;
+  min-height: 100vh;
+}
+.side-bar .col-6 {
+  padding: 0;
+}
+.side-bar .blue-square{
+  height: 48px;
+  background: #504DD4;
+}
+.side-bar ul{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+.side-bar ul a{
+  color: #91A1DF;
+}
+.side-bar ul a:hover{
+  color: #504DD4;
+  text-decoration: none;
+}
+.main-cnt.col-10{
+  padding: 0;
+}
+header {
+  height: 48px;
+  background: #ffffff;
+}
+.table-cnt {
+  margin: 20px;
+  font-size: 14px;
+}
+.table-cnt .white-bg {
+  background: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.table-cnt .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.table-cnt .table-header{
+  color: rgba(56,56,56,0.4);
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+.table-cnt h3{
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.table-cnt .button-field{
+  text-align: right;
+  padding: 25px 0 25px 10px;
+}
+.table-cnt .button-field button{
+  background-color: #504DD4;
+  margin-left: 15px;
+}
+.table-cnt .button-field button.dates-button{
+  width: 220px;
+}
+.table-cnt .button-field button.dates-button span.blured{
+  filter: blur(2px);
+  display: inline;
+}
+.table-cnt .button-field button.dates-button span.blured.hidden{
+  display: none;
+}
+.table-cnt .loading-table{
+  filter: blur(2px);
+}
+.table-cnt .hidden{
+  display: none;
+}
+.table-cnt .show{
+  display: block;
+}
+.table-cnt .general-row .loading.show{
+  filter: blur(2px);
+}
+.transp-cnt{
+  background: rgba(0,0,0,0.1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+.transp-cnt .dates-cnt{
+  background: #ffffff;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 15px;
+}
+.transp-cnt .dates-cnt h4{
+  margin-top: -5px;
+  font-size: 20px;
+  opacity: 0.7;
+}

@@ -62,6 +62,34 @@ header {
   height: 48px;
   background: #ffffff;
 }
+.main-list{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.main-list li{
+
+  margin-right: 30px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+.main-list .coffee-icon-cnt{
+  display: inline-block;
+  padding-top: 40px;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 165px;
+  height: 165px;
+  text-align: center;
+  border: rgba(151,151,151,0.1) solid 1px;
+
+}
+.main-list .coffee-icon-cnt p{
+  color: #000;
+  font-weight: 600;
+}
 .table-cnt {
   margin: 20px;
   font-size: 14px;
@@ -125,7 +153,7 @@ header {
 .transp-cnt .dates-cnt{
   background: #ffffff;
   width: 500px;
-  height: 500px;
+  height: 210px;
   position: relative;
   left: 50%;
   top: 50%;
@@ -137,4 +165,21 @@ header {
   margin-top: -5px;
   font-size: 20px;
   opacity: 0.7;
+}
+.transp-cnt .dates-cnt .select-part{
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+}
+.transp-cnt .dates-cnt .select-dropdown{
+  background-color: #504DD4;
+  color: #fff;
+  border-color: #6c757d;
+  text-align: right;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+.transp-cnt .dates-cnt .select-dropdown option{
+  background-color: #fff;
+  color: #000;
 }

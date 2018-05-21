@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import CoffeeIcon from "./coffeeIcon.js";
 
 export default class Home extends React.Component {
 
@@ -27,10 +28,10 @@ export default class Home extends React.Component {
       <div  className="table-cnt">
         <h3>Home</h3>
       
-        <ul>
+        <ul className="main-list">
           {
             this.state.products.map(item => <li key={item.id} id={item.id} name={item.name}> 
-                <Link name={item.name} to={`/${item.id}/${item.name}`} >{item.name}
+                <Link name={item.name} to={`/${item.id}/${item.name}`} ><CoffeeIcon name={item.name}/>
               </Link>
             </li>)
           }
